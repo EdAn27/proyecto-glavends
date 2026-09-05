@@ -1,0 +1,16 @@
+PROYECTO GLAVENDS - VERSION DEFINITIVA
+
+Para ejecutarlo en Windows:
+1. Descomprime el ZIP.
+2. Abre la carpeta PROYECTO GLAVENDS.
+3. Haz doble clic en "EJECUTAR PROYECTO GLAVENDS.bat".
+
+También puedes abrir index.html directamente.
+
+Archivos:
+- index.html
+- catalogo.html
+- liquid-brun.html
+
+Se conservaron los diseños definitivos enviados y se conectó la navegación entre las páginas.
+Requiere Internet para cargar Google Fonts, Tailwind CDN y las imágenes remotas del diseño.

@@ -1,0 +1,275 @@
+<!DOCTYPE html><html class="dark" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
+<title>GLAVENDS - Liquid Brun (French Avenue)</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+    @layer base {
+      html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #141315;
+        color: #e6e1e4;
+      }
+      .pb-safe {
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .pt-safe {
+        padding-top: env(safe-area-inset-top, 0px);
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+</style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container-low": "#1c1b1d",
+            "surface-container-high": "#2b292c",
+            "tertiary": "#d6cebc",
+            "primary": "#f2ca50",
+            "on-error": "#690005",
+            "surface-dim": "#141315",
+            "on-primary-container": "#554300",
+            "outline-variant": "#4d4635",
+            "primary-fixed": "#ffe088",
+            "primary-fixed-dim": "#e9c349",
+            "surface": "#141315",
+            "surface-container-lowest": "#0f0e10",
+            "on-tertiary-container": "#4a4538",
+            "on-background": "#e6e1e4",
+            "tertiary-container": "#bab2a2",
+            "on-tertiary-fixed-variant": "#4b4639",
+            "secondary-container": "#8b4c00",
+            "surface-container-highest": "#363436",
+            "on-secondary-fixed": "#2e1500",
+            "secondary-fixed-dim": "#ffb779",
+            "surface-tint": "#e9c349",
+            "on-secondary": "#4c2700",
+            "surface-variant": "#363436",
+            "primary-container": "#d4af37",
+            "outline": "#99907c",
+            "on-error-container": "#ffdad6",
+            "on-primary-fixed-variant": "#574500",
+            "inverse-on-surface": "#313032",
+            "on-tertiary": "#343024",
+            "on-secondary-container": "#ffcaa0",
+            "on-surface": "#e6e1e4",
+            "inverse-surface": "#e6e1e4",
+            "tertiary-fixed": "#eae2d0",
+            "on-primary": "#3c2f00",
+            "background": "#141315",
+            "secondary-fixed": "#ffdcc1",
+            "on-secondary-fixed-variant": "#6c3a00",
+            "surface-container": "#201f21",
+            "surface-bright": "#3a383b",
+            "on-primary-fixed": "#241a00",
+            "inverse-primary": "#735c00",
+            "error-container": "#93000a",
+            "on-tertiary-fixed": "#1f1b10",
+            "error": "#ffb4ab",
+            "on-surface-variant": "#d0c5af",
+            "tertiary-fixed-dim": "#cec6b5",
+            "secondary": "#ffb779"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-mobile": "1.25rem",
+            "space-2xs": "0.25rem",
+            "space-xs": "0.5rem",
+            "space-sm": "0.75rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2rem"
+          },
+          "fontFamily": {
+            "title-md": ["Plus Jakarta Sans"],
+            "display-hero": ["Bodoni Moda"],
+            "headline-sm": ["Bodoni Moda"],
+            "label-md": ["Plus Jakarta Sans"],
+            "label-sm": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "headline-lg": ["Bodoni Moda"],
+            "headline-lg-mobile": ["Bodoni Moda"],
+            "headline-md": ["Bodoni Moda"],
+            "title-lg": ["Plus Jakarta Sans"],
+            "display-hero-mobile": ["Bodoni Moda"]
+          }
+        }
+      }
+    };
+</script>
+</head>
+<body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen selection:bg-primary selection:text-on-primary antialiased">
+<!-- 1. Header Minimalista Responsive y Navegación en Español -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md pt-safe border-b border-outline-variant/20">
+<div class="max-w-6xl mx-auto h-14 md:h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+<div class="flex items-center gap-3 sm:gap-6"><button aria-label="Volver al Catálogo" class="inline-flex items-center gap-2 text-on-surface hover:text-primary transition-colors text-xs font-semibold uppercase tracking-widest" onclick="window.location.href='catalogo.html'"><span class="material-symbols-outlined text-[18px]">arrow_back_ios_new</span><span class="">Volver al Catálogo</span></button><nav class="hidden md:flex items-center gap-4 text-xs uppercase tracking-wider text-outline"><span class="text-outline-variant/40">/</span><span class="hover:text-primary cursor-pointer transition-colors">Showroom</span></nav></div>
+<div class="flex items-center justify-center">
+<img alt="GLAVENDS Logo" class="h-5 md:h-6 w-auto object-contain opacity-90" src="https://lh3.googleusercontent.com/aida/AEtjO1WDWSrd5RhJraK5zAH4Kzbfg3hvCjL-EEqADLGHG0rgjJNH9Y5QxtoK0CjOMQIPsN39eoSuxxjZa0-GQ5GGWU652X36MLBnbSmRBCsqJpUIiWoLOBvKV0BAKhSwKahCYeW3IL5gO0oHEtfoqpMgjEmuIai4b9eU_EsGHRLcikZDTghnR1EhnXiFF6yQNA7S-cOiWVh92AwaAAsYiZI1hUvqVUJTVKSfR-EroHltU7F7xZJ1TDih3B_6huY">
+</div>
+<a aria-label="Atención WhatsApp" class="inline-flex items-center gap-1.5 sm:gap-2 text-primary hover:text-primary-fixed transition-colors text-xs font-semibold uppercase tracking-wider" href="https://wa.me/51922896417?text=Hola%20GLAVENDS,%20deseo%20consultar%20sobre%20Liquid%20Brun." target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="hidden lg:inline">Atención WhatsApp: +51 922 896 417</span>
+<span class="hidden sm:inline lg:hidden">Atención WhatsApp</span>
+<span class="sm:hidden">WhatsApp</span>
+</a>
+</div>
+</header>
+<!-- Contenedor Principal Adaptable (Mobile + Universal Desktop Split) -->
+<main class="flex-1 w-full pt-16 md:pt-20 pb-36 lg:pb-16">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 items-start">
+<!-- Columna Izquierda: Imagen de Gran Impacto (Sticky en Desktop) -->
+<div class="w-full lg:sticky lg:top-24 flex flex-col items-center">
+<div class="relative w-full aspect-[4/5] max-w-[500px] lg:max-w-none rounded-2xl overflow-hidden bg-surface-container-low border border-outline-variant/30 shadow-[0_20px_50px_rgba(0,0,0,0.8)] group">
+<!-- Resplandor sutil de fondo y aura dorada -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-primary/10 pointer-events-none z-10"></div>
+<div class="absolute -inset-1 bg-gradient-to-r from-primary/10 via-transparent to-secondary/10 blur-xl opacity-60 pointer-events-none"></div>
+<img alt="Liquid Brun de French Avenue con frasco y caja de presentación de lujo" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" id="main-perfume-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVquNecJXPNG5I8_IJ43_QWPI3EmRjcimXqKcuGnw15RIqBwokVRn6AEY7eRW4Cjf9aqqgR9b8kbqF1Drh5M55LTeL14xhEcJUt5xIk0k9d3m382LIq8OWBGl0JmT3b-1sQHOrIWgm0O8C5J1G9ydFaN0rxmWKZolxqLSnwmxVQrJm7cUYlTYtmmmP2nkaHv1297Irna5m-j5oOi0aynAylU8T-a23cXXrkAu5fX4eTHjys5e3s1qZAS9LWzFpHG7pBg">
+<!-- Badge Reserva Privada -->
+<div class="absolute top-4 left-4 z-20">
+<span class="px-3 py-1.5 rounded-full bg-surface-dim/85 backdrop-blur-md text-primary-fixed border border-primary/30 text-[10px] sm:text-xs uppercase font-semibold tracking-widest flex items-center gap-1.5 shadow-lg">
+<span class="material-symbols-outlined text-[14px] text-primary">verified</span>
+              RESERVA PRIVADA
+            </span>
+</div>
+<!-- Indicador de formato / pureza en imagen -->
+<div class="absolute bottom-4 right-4 z-20">
+<span class="px-2.5 py-1 rounded bg-surface-dim/80 backdrop-blur-md text-tertiary text-[11px] font-mono tracking-wider border border-outline-variant/30 uppercase">
+              EDICIÓN LIMITADA
+            </span>
+</div>
+</div>
+<!-- Galería / Detalle complementario en desktop -->
+<div class="hidden sm:flex items-center justify-center gap-3 mt-4 w-full max-w-[500px]">
+<div class="w-14 h-14 rounded-lg border-2 border-primary overflow-hidden cursor-pointer shadow-md bg-surface-container-low flex-shrink-0">
+<img alt="Miniatura frasco y caja" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs_rEXOl7vdGQbY8D-YHd7B7gQpjMzVlRyebqDoTZw2NFwjgHjcKHNjqrwaVgIoBtFS-fbwgDtdiXMJUZWCuz84pLGG9zW9q85i8Ai3Ncfp-x81E3wDk4sOvrfyD79HjoIcWLd-mqszBxckG-y7NxlRDjlxYG1xUzLQh1six2FTJg6wO1FHTrWbFBtr8tLRcKg-97wF4ploJatQlOlO7uc9FDVgdCaptEmkjX1VPIBYGVJC_Pn34OjLTdokUoki8MOvA">
+</div>
+<div class="text-xs text-outline tracking-wider flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px] text-primary">verified</span> Presentación original French Avenue París — Frasco y estuche de lujo lacrado</div>
+</div>
+</div>
+<!-- Columna Derecha: Dossier de Fragancia Editorial & Compra -->
+<div class="flex flex-col">
+<!-- Subtítulo de marca -->
+<div class="flex flex-wrap items-center justify-between gap-2 pb-1">
+<span class="font-label-sm text-[11px] sm:text-xs text-secondary uppercase tracking-[0.2em] font-semibold">FRENCH AVENUE • GLAVENDS</span>
+<span class="font-label-sm text-[11px] sm:text-xs text-tertiary/70 uppercase tracking-widest">EXTRACTO DE PERFUME CONCENTRADO</span>
+</div>
+<!-- Título Principal -->
+<h1 class="font-headline-lg text-3xl sm:text-4xl lg:text-5xl text-on-surface font-normal tracking-tight mt-1 leading-tight">Liquid Brun</h1>
+<p class="font-label-md text-xs sm:text-sm text-secondary tracking-widest uppercase mt-0.5 font-medium">French Avenue</p>
+<!-- Precio Destacado Simple -->
+<div class="mt-3 sm:mt-4 flex items-baseline gap-3">
+<span class="font-headline-sm text-3xl sm:text-4xl font-medium text-primary tracking-tight" id="display-price">S/ 210</span>
+<span class="font-body-md text-on-surface-variant text-sm sm:text-base" id="display-format-note">(100 ml Extracto de Perfume Concentrado)</span>
+</div>
+<p class="mt-3 text-sm text-on-surface-variant leading-relaxed">Una obra maestra oriental cálida y adictiva de French Avenue. Una exquisita fusión de canela especiada, vainilla Bourbon licorosa y maderas nobles profundas que dejan una estela inolvidable y magnética.</p>
+<!-- Selector Simple de Formato -->
+<div class="mt-6">
+<label class="block font-label-sm text-xs text-outline uppercase tracking-wider mb-2">SELECCIONAR TAMAÑO / PRESENTACIÓN</label>
+<div class="grid grid-cols-1 gap-3">
+<button class="p-4 rounded-xl border-2 border-primary bg-surface-container text-left transition-all active:scale-[0.98] shadow-[0_0_16px_rgba(242,202,80,0.12)] focus:outline-none" id="btn-size-100" type="button">
+<div class="flex items-center justify-between text-primary">
+<span class="font-title-md text-sm sm:text-base text-primary font-semibold">100 ml - S/ 210</span>
+<span class="material-symbols-outlined text-[18px] check-indicator">check</span>
+</div>
+<div class="font-headline-sm text-lg sm:text-xl text-primary font-semibold mt-1">S/ 210</div>
+<div class="text-[11px] sm:text-xs text-tertiary mt-0.5">Botella Original Sellada con Estuche de Lujo</div>
+</button>
+</div>
+</div>
+<!-- 4. Notas Olfativas Esenciales (Pirámide Olfativa) -->
+<div class="mt-8 flex flex-col">
+<div class="flex items-center justify-between pb-2 border-b border-outline-variant/20 mb-3">
+<h2 class="font-label-sm text-xs text-outline uppercase tracking-widest font-semibold">PIRÁMIDE OLFATIVA</h2>
+<span class="font-label-sm text-[11px] text-secondary font-medium">35% de Concentración de Esencia Pura</span>
+</div>
+<div class="flex flex-col divide-y divide-outline-variant/20 bg-surface-container-low rounded-xl border border-outline-variant/25 px-4 py-1">
+<div class="py-3 sm:py-3.5 flex items-start justify-between gap-3">
+<div class="w-20 flex-shrink-0">
+<span class="text-[11px] font-semibold text-secondary-fixed uppercase tracking-wider">Salida</span>
+</div>
+<div class="flex-1 text-right font-title-md text-sm sm:text-base text-on-surface">
+Canela de Ceilán, Flor de Azahar y Cardamomo
+</div>
+</div>
+<div class="py-3 sm:py-3.5 flex items-start justify-between gap-3">
+<div class="w-20 flex-shrink-0">
+<span class="text-[11px] font-semibold text-primary uppercase tracking-wider">Corazón</span>
+</div>
+<div class="flex-1 text-right font-title-md text-sm sm:text-base text-on-surface">
+Vainilla Bourbon de Madagascar y Haba Tonka
+</div>
+</div>
+<div class="py-3 sm:py-3.5 flex items-start justify-between gap-3">
+<div class="w-20 flex-shrink-0">
+<span class="text-[11px] font-semibold text-tertiary uppercase tracking-wider">Fondo</span>
+</div>
+<div class="flex-1 text-right font-title-md text-sm sm:text-base text-on-surface">
+Maderas Nobles Curadas, Ámbar Profundo y Praliné
+</div>
+</div>
+</div>
+<!-- Indicadores de Rendimiento -->
+<div class="grid grid-cols-2 gap-3 mt-4">
+<div class="p-3 rounded-lg bg-surface-container-lowest border border-outline-variant/20 flex items-center justify-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[20px]">hourglass_top</span>
+<div class="text-left">
+<span class="text-[10px] uppercase text-outline block leading-none font-semibold">DURACIÓN</span>
+<span class="font-title-md text-xs sm:text-sm text-on-surface font-semibold">24h+ en Piel</span>
+</div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-lowest border border-outline-variant/20 flex items-center justify-center gap-2.5">
+<span class="material-symbols-outlined text-primary text-[20px]">air</span>
+<div class="text-left">
+<span class="text-[10px] uppercase text-outline block leading-none font-semibold">ESTELA</span>
+<span class="font-title-md text-xs sm:text-sm text-on-surface font-semibold">Intensa y Envolvente</span>
+</div>
+</div>
+</div>
+</div>
+<!-- CTA Directo para Desktop (Integrado en columna) -->
+<div class="mt-8 hidden lg:flex flex-col gap-2 pt-2 border-t border-outline-variant/20">
+<a class="w-full py-4 px-space-md rounded-xl bg-primary text-on-primary font-title-md text-[16px] font-semibold flex items-center justify-center gap-2.5 shadow-[0_0_24px_rgba(242,202,80,0.35)] active:scale-[0.98] hover:bg-primary-fixed hover:shadow-[0_0_30px_rgba(242,202,80,0.5)] transition-all no-underline" href="https://wa.me/51922896417?text=Hola%20GLAVENDS,%20deseo%20adquirir%20Liquid%20Brun%20(100ml)%20por%20S/%20210" id="cta-whatsapp-desktop" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span id="cta-label-desktop" class="">Pedir por WhatsApp — S/ 210</span>
+</a>
+<p class="font-label-sm text-xs text-center text-outline/80 tracking-wide mt-1 flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-primary">lock</span>
+            Entrega asegurada y lacrada a mano en Lima y todo el Perú
+          </p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Fijo Móvil / Flotante (Visible en Mobile y Tablet, oculto en Desktop donde está integrado) -->
+<footer class="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-surface/95 backdrop-blur-xl border-t border-outline-variant/30 px-gutter-mobile pt-3 pb-safe shadow-[0_-10px_25px_rgba(0,0,0,0.8)]">
+<div class="max-w-md mx-auto flex flex-col gap-1.5 pb-2">
+<a class="w-full h-13 py-3.5 px-space-md rounded-xl bg-primary text-on-primary font-title-md text-[15px] font-semibold flex items-center justify-center gap-2.5 shadow-[0_0_20px_rgba(242,202,80,0.3)] active:scale-[0.98] hover:bg-primary-fixed transition-all no-underline" href="https://wa.me/51922896417?text=Hola%20GLAVENDS,%20deseo%20adquirir%20Liquid%20Brun%20(100ml)%20por%20S/%20210" id="cta-whatsapp" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+<span id="cta-label" class="">Pedir por WhatsApp — S/ 210</span>
+</a>
+<p class="font-label-sm text-[11px] text-center text-outline/80 tracking-wide flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-primary">lock</span>
+      Entrega asegurada y lacrada a mano en Lima y todo el Perú
+    </p>
+</div>
+</footer>
+
+
+</body></html>
