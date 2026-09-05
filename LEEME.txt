@@ -1,0 +1,23 @@
+PROYECTO GLAVENDS - VERSION ACTUALIZADA
+
+Páginas incluidas:
+- index.html
+- catalogo.html
+- liquid-brun.html
+- yara.html
+- asad-bourbon.html
+- honor-glory.html
+
+El catálogo ya enlaza a las fichas individuales de:
+Liquid Brun, Yara, Asad Bourbon y Bade'e Al Oud Honor & Glory.
+
+PARA ACTUALIZAR VERCEL:
+1. Descomprime este ZIP.
+2. En GitHub entra a tu repositorio proyecto-glavends.
+3. Entra a la carpeta PROYECTO GLAVENDS.
+4. Sube/reemplaza los archivos de esta carpeta.
+5. Confirma el commit.
+6. Vercel detectará el cambio y hará un nuevo despliegue automáticamente.
+
+IMPORTANTE:
+El Root Directory de Vercel debe seguir siendo: PROYECTO GLAVENDS
